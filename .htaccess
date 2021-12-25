@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+
+RewriteRule ^s-admin$ admin/index.php [L]
+RewriteRule ^s-admin/$ admin/index.php [L]
+RewriteRule ^Project-dua$ view/index.php [L]
+RewriteRule ^profil$ index.php?page=profil [L]
+RewriteRule ^login$ view/login.php [L]
+RewriteRule ^daftar$ view/daftar.php [L]
+RewriteRule ^ceklogin view/ceklogin.php [L]
+RewriteRule ^data-pembelian-([0-9]+)$ index.php?page=profil&act=lihatorder&id=$1 [L]
+RewriteRule ^profil-pembelian-([0-9]+)$ index.php?page=profil&act=lihatorder&id=$1 [L]
+RewriteRule ^editprofil-informasi$ index.php?page=profil&act=editprofilinfo [L]
+RewriteRule ^editprofil-alamat$ index.php?page=profil&act=editprofilalamat [L]
+RewriteRule ^beli$ index.php?page=keranjang&act=tambahqty [L]
+RewriteRule ^hapusgambar-([0-9]+)$ index.php?page=keranjang&act=hapus&id=$1 [L]
+RewriteRule ^lihatgambar-([0-9]+)\.html$ index.php?page=lihatgambar&id=$1 [L]
+RewriteRule ^lihatblog-([0-9]+)\.html$ index.php?page=lihatblog&id=$1 [L]
+RewriteRule ^perbarui$ index.php?page=keranjang&act=perbarui [L]
+
+RewriteRule ^/?([A-Za-z0-9_-]+)/?$ index.php?page=$1 [L]
+
+
+</IfModule>
+RewriteRule ^daftar$ index.php?page=login&act=daftar [L]

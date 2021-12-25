@@ -1,0 +1,107 @@
+th {
+    text-align: center;
+    padding: 5px 15px;
+}
+td {
+    text-align: center;
+    padding: 2px 15px;
+}
+td>img{
+    margin-top: 15px;
+    width: 170px !important;
+    height: 130px !important;
+}
+.tampil {
+    background-color: #1275e5 !important;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.left{
+    text-align: left !important;
+}
+tr>th:first-child{
+    width: 30px;
+}
+tr>td:first-child{
+    width: 30px;
+}
+tr>th:last-child{
+    max-width: 130px !important;
+}
+.mepet{
+    width: 140px !important;
+}
+.badan{
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    width: 100%;
+    float: left;
+}
+#table{
+    padding: 10px;
+}
+.fan{
+    padding-left: 20px;
+    font-family: roboto;
+    letter-spacing: 1px;
+    color: #1275e5;
+}
+.far{
+    padding-left: 20px;
+    color: #1275e5;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #6d3838;
+    font-family:'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.sub-title{
+    font-size: 25px;
+    color: #8d5a17;
+    font-family:'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.m6{
+    margin-top: 50px;
+}
+.m5{
+    margin: 10px;
+}
+.right{
+    float: right;
+}
+html{
+    font-family:'Josefin Sans', sans-serif;
+}
+body{
+    font-family:'Josefin Sans', sans-serif;
+}
+.lebel{
+     width: 100%;
+    float: left;
+    text-align: left;
+    color: black;
+    font-size: 16px;
+}
+.batas{
+    margin-bottom: 20px;
+}
+.long{
+    width: 100%;
+}
+.pad5{
+    padding: 5px;
+}
